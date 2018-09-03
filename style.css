@@ -1,0 +1,51 @@
+body {
+    background-image: linear-gradient(rgba(25, 89, 226, 0.333), rgba(0, 0, 0, .55)),url(img/club-de-la-lucha-escena-final.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+
+/* .quoteDisplay {
+    position: relative;
+} */
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#quoteDisplay p {
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+button {
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px;
+    width: 130px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0px 2px 6px 0 hsla(0, 0%, 59%, 0.836);
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    
+}
+
+button:active {
+    transform: translateY(1px);
+}
