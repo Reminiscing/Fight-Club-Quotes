@@ -25,7 +25,7 @@ body {
     word-spacing: 1px;
     font-weight: 300;
     text-transform: uppercase;
-    
+    transition: 0.6s ease-in;
 }
 
 button {
